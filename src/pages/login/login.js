@@ -24,7 +24,7 @@ function Login() {
                 navigate('/home');
             }, 3000)
         }else {
-            return console.log('Erro de autenticação');
+            throw new('Erro de autenticação')();
         }
     }
 
