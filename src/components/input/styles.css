@@ -1,0 +1,19 @@
+.input-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form input {
+    border: 2px solid #6b71eb;
+    outline: none;
+    width: 20%;
+}
+
+.input-form label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.span-footer{
+    font-size: smaller;
+}
